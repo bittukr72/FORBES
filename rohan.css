@@ -1,0 +1,61 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+
+.static-example {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.relative-example {
+    position: relative;
+    background-color: lightgreen;
+    padding: 40px;
+    top: 10px;
+    left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.absolute-example {
+    position: absolute;
+    background-color: lightcoral;
+    padding: 10px;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+
+.fixed-example {
+    position: fixed;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    top: 30px;
+    left: 30px;
+    width: 250px;
+}
+
+
+.sticky-container {
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.sticky-example {
+    position: sticky;
+    background-color: lightgray;
+    padding: 10px;
+    top: 0;
+    margin-bottom: 10px;
+}
